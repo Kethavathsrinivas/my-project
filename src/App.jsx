@@ -14,10 +14,10 @@ import Footer from "./components/Footer";
 // import Service_previous from "./online/Previous";
 // import Service_councselling from "./online/counseling";
 // import Contact from "./Contact/Contact";
-// import Privacy from "./components/Privacy";
-// import CookiesPage from "./components/Cookie"
+import Privacy from "./components/Privacy";
+import CookiesPage from "./components/Cookie"
 // import Home from "./Home"
-// import Terms from "./components/Terms";
+import Terms from "./components/Terms";
 // import About from "./About/About";
 // import Signin from "./sign&signup/Signin";
 // import Blog from "./blog/Blog"
@@ -37,13 +37,14 @@ function App() {
         <Route path="/Service_previous" element={<Service_previous />} />
         <Route path="/Service_counselling" element={<Service_councselling />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Privacy" element={<Privacy/>}/>
-        <Route path="/Cookie" element={<CookiesPage/>}/>
-        <Route path="/Terms" element={<Terms/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Signin" element={<Signin/>}/>
         <Route path="/" element={<Home/>}/>
         <Route path="/Blog" element={<Blog/>}/> */}
+        <Route path="/Cookie" element={<CookiesPage/>}/>
+        <Route path="/Privacy" element={<Privacy/>}/>
+        <Route path="/Terms" element={<Terms/>}/>
+
       </Routes>
       <Footer />
     </div>
